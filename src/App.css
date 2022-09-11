@@ -1,0 +1,77 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  background-image: url(./rickandmorty.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: aliceblue;
+  height: 350px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(243, 243, 243);
+  height: 140px;
+  text-align: center;
+  padding-top: 45px;
+  /* padding-bottom: 30px; */
+  letter-spacing: 5px;
+  font-size: 4rem;
+}
+
+.sub-title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(243, 243, 243);
+  text-align: center;
+  padding-bottom: 10px;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  width: 380px;
+}
+
+.character-table {
+
+  color: aliceblue;
+  background-color: rgb(64, 66, 66);
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-radius: 10px;
+}
+
+.row {
+  width: 200px;
+  height: 50px;
+  text-align: start;
+
+}
+
+.chart-container {
+  margin: 30px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.character-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px;
+}
